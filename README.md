@@ -83,3 +83,8 @@ Video link: TBA
 Episode date: TBA
 
 Files: `ep6/`
+
+### Run example code in a container
+````bash
+docker-compose run console
+````

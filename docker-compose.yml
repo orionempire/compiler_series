@@ -1,0 +1,8 @@
+# docker-compose run console
+version: '3'
+services:
+  console:
+    build: .
+    volumes:
+    - ./:/code
+    entrypoint: /bin/bash
